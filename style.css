@@ -1,0 +1,24 @@
+  /*
+  Theme name: DT News Theme
+  Theme URI: https://www.dailytamilnadu.com
+  Author: Daily Tamilnadu
+  Author URI: https://m.dailytamilnadu.com
+  Version: 1.0
+  Description: Daily Tamilnadu Site
+  */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Mukta+Malar:wght@200;300;400;500;600;700;800&display=swap');
+  @font-face {
+  font-family: myFirstFont;
+  src: url(https://www.dailytamilnadu.com/wp-content/themes/dtnewsalpha/dtnews-webfont.ttf);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'myFirstFont', sans-serif;
+    background-color: #ffffff;
+}
